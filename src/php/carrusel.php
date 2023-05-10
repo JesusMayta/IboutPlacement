@@ -29,7 +29,7 @@ echo 'var leftrightslide=new Array()'."\r\n";
 $i=0;   
 $alogos=array("http://www.iboutsourcing.com/"=>"img_log_01.png","http://hunthor.com/"=>"img_log_02.png","http://ibconultingperu.com/"=>"img_log_03.png","http://ibinfraestructura.com/"=>"img_log_04.png","http://www.iboutplacement.com/"=>"img_log_05.png","http://www.ibtrainersperu.com/"=>"img_log_06.png","http://ibmobiliaria.com/"=>"img_log_07.png","http://ibhunters.com/"=>"img_log_08.png","https://www.corporacionibgroup.pe/"=>"img_log_09.png");
 foreach ($alogos as $key=>$value){
-	echo 'leftrightslide['.$i.'] ='."'".'<a href="'.$key.'" target="_Blank"><img src="img_carrusel/'.$value.'" border="0" class="BordeColor"></a>'."'"."\r\n";
+	echo 'leftrightslide['.$i.'] ='."'".'<a href="'.$key.'" target="_Blank"><img src="../../img_carrusel/'.$value.'" border="0" class="BordeColor"></a>'."'"."\r\n";
 	$i++;
 }
 echo '</script>';
